@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/771183189e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <h1>Shubham.</h1>
+        <div class="contact">
+            <a class="c1" href="#end">Contact</a>
+        </div>
+    </nav>
+    <div class="head">
+        <div class="data">
+            Hello I'm
+            <div class="nm">
+                Shubham Negi
+            </div>
+            <div class="data1">
+                A computer science student from Dehradun. I aim to deepen my understanding in the field of development
+                and technology.
+            </div>
+        </div>
+        <img class="image" src="main3.jpeg" alt="Imagenotavailable">
+    </div>
+    <div class="second">
+        <div class="bottom">
+            <div class="project">
+                Projects.
+            </div>
+            <div class="projects">
+                <div class="project1">
+                    <div class="drip">
+                        <a href="https://shubhamnegi4.github.io/Music-Player/"><img class="size" src="1.png" alt="Imagenotavailable">Website |</a>
+                        <a href="https://shubhamnegi4.github.io/Music-Player/">GIT</a>
+                        <h2>Drip Music Player</h2>
+                        <p>An Elegant and Minimalist Music Application.</p>
+                    </div>
+                </div>
+                <div class="project2">
+                    <div class="drip">
+                    <a href="https://shubhamnegi4.github.io/Car-Rental-Site/"><img class="size" src="2.png" alt="Imagenotavailable">Website |</a>
+                    <a href="https://shubhamnegi4.github.io/Car-Rental-Site/">Git</a>
+                    <h2>Rental Cars</h2>
+                    <p>Cars Available for Rent on this Platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="end">
+        <div class="last">
+            Get in touch.
+        </div>
+        <div class="endline">
+            I would be happy to further discuss my experiences with you,
+            <br>
+            simply shoot me an email or message me on LinkedIn! :)
+        </div>
+        <div class="mail">
+            <a class="email" href="mailto:snegi4260@gmail.com">snegi4260@gmail.com</a>
+        </div>
+
+        <div class="button" id="end">
+            <div>
+                <a class="custom" href="mailto:snegi4260@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                <a class="custom" href="https://www.linkedin.com/in/shubham-negi-a6b70b248/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a class="custom" href="https://github.com/ShubhamNegi4"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="click">
+                You Clicked
+                <span id="clickCount">0</span>
+                Times
+                <br>
+                <button id="clickButton">Click Me</button>
+                <script>
+                    let clickCount = 0;
+                    const clickButton = document.getElementById("clickButton");
+                    const clickCountSpan = document.getElementById("clickCount");
+                    clickButton.addEventListener("click", function () {
+                        clickCount++;
+                        clickCountSpan.textContent = clickCount;
+                    });
+                </script>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

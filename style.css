@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #E9F1F7;
+    font-family: "Open Sans";
+    margin-top: 5rem;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+}
+
+h3 {
+    margin-left: 0rem;
+}
+
+nav {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.c1 {
+    color: black;
+}
+
+.image {
+    position: relative;
+    height: 26rem;
+    width: 18rem;
+    top: 5rem;
+    border-top: 0;
+    border-left: 0;
+    border-left-color: #1e6fd9;
+    border-bottom: 5px solid #1e6fd9;
+    border-right: 5px solid #1e6fd9;
+    border-top-color: #1e6fd9;
+    transition: 0.5s ease;
+    margin-left: auto; 
+}
+.image:hover {
+    transform: scale(1.1);
+}
+
+.head {
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.data {
+    font-size: 7rem;
+    font-weight: bold;
+    flex: 1; 
+    margin-right: 2rem; 
+    text-align: left; 
+}
+
+.nm {
+    line-height: 1.2;
+    color: #1e6fd9;
+}
+
+.data1 {
+    width: 70%;
+    margin-top: 1rem;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    color: grey;
+    font-weight: lighter;
+}
+.second{
+    margin-top: 10rem;
+}
+.bottom {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.project {
+    font-size: 8rem;
+    font-weight: bold;
+    font-family: "Montserrat";
+
+}
+.projects {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    text-align: center;
+}
+
+.size {
+    max-width: 100%;
+    height: auto;
+    transition: 1s ease;
+}
+
+.size:hover {
+    transform: scale(0.8);
+}
+
+.drip {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.8rem;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.end {
+    margin-top: 8rem;
+    padding: 2rem;
+}
+
+.last {
+    font-size: 8rem;
+    font-weight: bold;
+    letter-spacing: 0.07em;
+}
+
+.endline {
+    margin-top: 1rem;
+    line-height: 1.5;
+    font-size: 2.5rem;
+    color: grey;
+    font-weight: lighter;
+}
+
+.mail {
+    margin-top: 5rem;
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+.email {
+    color: black;
+}
+
+.ending {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button {
+    margin-top: 3rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between /* Align buttons to the left */
+
+}
+
+.custom {
+    margin: 1rem;
+    color: black;
+}
+
+.click {
+    text-align: right; /* Align the click div to the right */
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+#clickButton {
+    display: block
+}
